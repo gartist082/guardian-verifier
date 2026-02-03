@@ -1,13 +1,15 @@
 🛡️ LOST ARK Guardian Verifier (Balance Verification System)
+
 “단계 목표(Stage Goals) + 확률 기반 안정성(CR10/CR5)으로 밸런스를 검증합니다.”
 
-Project Type: MMORPG PVE 전투 밸런스 검증 & 성장 추천 도구
-Core Benchmark: Item Level (iLv)
-Output Focus: Clear Time / Clear Rate / Stage Goals / Upgrade Recommendation
-Tech Stack: Python, Streamlit, Pandas, NumPy, Plotly
-Live Demo: https://guardian-verifier.streamlit.app/
-Author: Jihoon Kim (Lead Balance Designer Candidate)
-Co-Work: AI Assistant (Implementation/Refactoring Support)
+*Project Type: MMORPG PVE 전투 밸런스 검증 & 성장 추천 도구
+*Core Benchmark: Item Level (iLv)
+*Output Focus: Clear Time / Clear Rate / Stage Goals / Upgrade Recommendation
+*Tech Stack: Python, Streamlit, Pandas, NumPy, Plotly
+*Live Demo: https://guardian-verifier.streamlit.app/
+*Author: Jihoon Kim (Lead Balance Designer Candidate)
+*Co-Work: AI Assistant (Implementation/Refactoring Support)
+
 1) 🎯 프로젝트 개요 (Project Objective)
 이 프로젝트는 모바일 MMORPG 환경에서, “성장(강화·보석·각인·아크 패시브·엘릭서/팔찌)”이 실제 전투 체감으로 어떻게 연결되는지를 정량화하고, 기획 의도(난이도/리듬/단계 목표)가 실제 결과로 재현되는지 시뮬레이션으로 검증하기 위해 제작되었습니다.
 
