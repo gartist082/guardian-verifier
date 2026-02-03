@@ -1,4 +1,4 @@
-# 🛡️ LOST ARK Guardian Verifier (Balance Verification System)
+# 🛡️ LOST ARK Guardian Verifier
 
 > **“단계 목표(Stage Goals) + 확률 기반 안정성(CR10/CR5)으로 밸런스를 검증합니다.”**  
 > * **Project Type:** MMORPG PVE 전투 밸런스 검증 & 성장 추천 도구  
