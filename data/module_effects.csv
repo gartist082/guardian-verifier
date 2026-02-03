@@ -1,4 +1,4 @@
-module,level,dps_mult,ehp_mult,uptime_add,notes
+ï»¿module,level,dps_mult,ehp_mult,uptime_add,notes
 enhance,0,1,1,0,baseline
 enhance,1,1.03,1.01,0,
 enhance,2,1.06,1.02,0,
@@ -12,17 +12,17 @@ gems,3,1.13,1,0,~9
 gems,4,1.19,1,0,~10
 gems,5,1.26,1,0,
 engrave,0,1,1,0,baseline
-engrave,1,1.06,1,0,À¯¹°2
-engrave,2,1.12,1,0,À¯¹°3
-engrave,3,1.18,1,0,À¯¹°4
+engrave,1,1.06,1,0,ìœ ë¬¼2
+engrave,2,1.12,1,0,ìœ ë¬¼3
+engrave,3,1.18,1,0,ìœ ë¬¼4
 engrave,4,1.24,1,0,
 engrave,5,1.3,1,0,
 ark,0,1,1,0,baseline
 ark,1,1.03,1.01,0.01,
 ark,2,1.06,1.02,0.02,
-ark,3,1.09,1.03,0.03,50pt ±ÙÁ¢
+ark,3,1.09,1.03,0.03,50pt ê·¼ì ‘
 ark,4,1.12,1.04,0.04,
-ark,5,1.15,1.05,0.05,50pt ´Þ¼º
+ark,5,1.15,1.05,0.05,50pt ë‹¬ì„±
 elixir,0,1,1,0,baseline
 elixir,1,1.02,1.05,0.01,
 elixir,2,1.04,1.1,0.01,

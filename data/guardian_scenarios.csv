@@ -1,4 +1,4 @@
-guardian_id,name,difficulty,ilv_gate,boss_hp,time_limit_sec,required_epi,base_target_cr5
+﻿guardian_id,name,difficulty,ilv_gate,boss_hp,time_limit_sec,required_epi,base_target_cr5
 G_BHM_N,Behemoth,Normal,1600,120000000,600,2800,0.05
 G_BHM_N,Behemoth,Normal,1660,135000000,600,3100,0.1
 G_BHM_N,Behemoth,Normal,1700,150000000,600,3500,0.2
