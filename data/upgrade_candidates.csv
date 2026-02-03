@@ -1,0 +1,9 @@
+upgrade_id,module,from_level,to_level,gold_cost,mat1_id,mat1_qty,mat2_id,mat2_qty
+U_ENH_2_3,enhance,2,3,380000,honor_token,170,destruction_shard,420
+U_ENH_3_4,enhance,3,4,480000,honor_token,210,destruction_shard,520
+U_GEM_1_2,gems,1,2,260000,honor_token,110,destruction_shard,160
+U_GEM_2_3,gems,2,3,360000,honor_token,150,destruction_shard,220
+U_ENG_1_2,engrave,1,2,320000,honor_token,130,destruction_shard,200
+U_ARK_2_3,ark,2,3,260000,honor_token,130,destruction_shard,170
+U_ELX_0_1,elixir,0,1,240000,honor_token,120,destruction_shard,140
+U_ELX_1_2,elixir,1,2,340000,honor_token,160,destruction_shard,210
