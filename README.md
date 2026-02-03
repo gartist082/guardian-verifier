@@ -2,7 +2,7 @@
 
 > **“데이터로 증명하는 레이드 밸런스: 솔로 체급 측정부터 파티 시너지 검증까지”**
 > * **핵심 지표:** 아이템 레벨(iLv) 기반 단계별 클리어 확률(CR) 산출
-> * **Live Demo:** [https://guardian-verifier.streamlit.app/](https://guardian-verifier.streamlit.app/)
+> * **Live Demo:** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://guardian-verifier.streamlit.app/)
 > * **작성자:** 김지훈 (밸런스 기획 파트 리드 지원자)
 
 ---
