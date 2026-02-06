@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Keep Streamlit app awake
         run: |
-          echo "Pinging Guardian Verifier app to prevent sleep..."
-          curl -s -o /dev/null -w "%{http_code}" https://guardian-verifier.streamlit.app/
+          echo "Pinging Streamlit app to prevent sleep..."
+          curl -L -s -o /dev/null -w "%{http_code}" --max-redirs 5 https://guardian-verifier.streamlit.app/ || true
