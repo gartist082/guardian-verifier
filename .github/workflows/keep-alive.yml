@@ -26,11 +26,16 @@ jobs:
           options.add_argument('--no-sandbox')
           options.add_argument('--disable-dev-shm-usage')
           driver = webdriver.Chrome(options=options)
+          # Selenium 스텝 내 run 부분 수정
           driver.get('https://guardian-verifier.streamlit.app/')
-          # 앱 깨우기 위해 버튼/위젯 클릭 (앱 구조에 맞게 조정)
+          import time
+          time.sleep(3)  # 로드 대기
           try:
-              button = driver.find_element(By.TAG_NAME, 'button')  # 또는 st.button 셀렉터
-              button.click()
+              # Wake 버튼 클릭 (Streamlit rerun 버튼 클래스)
+              rerun_btn = driver.find_element(By.CSS_SELECTOR, '[data-testid="stAppViewContainer"] button, [alt*="rerun"], button:contains("Rerun")')
+              rerun_btn.click()
+              print("Wake-up button clicked!")
           except:
-              pass  # 페이지 로드만으로도 OK
+              print("Button not found, page loaded.")
           driver.quit()
+
